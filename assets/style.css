@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    z-index: 10;
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.menu li{
+    padding: 15px;
+    list-style: none;
+}
+
+.menu li a{
+    color: #A7A7A7;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.menu li a:hover{
+    color: #fcacd1;
+}
+
+.about {
+    padding: 150px;
+    position: relative;
+    display: flex;
+}
+.container {
+    position: relative;
+    right: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.container h1{
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fcacd1;
+}
+
+.container p {
+    color: #A7A7A7;
+    padding: 0 20px;
+}
+
+.profile-picture img{
+    width: 300px;
+    height: 300px;
+}
+
+.video {
+    width: 100%;
+    background-color: #FFF8FB;
+}
+.content-video h1{
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #A7A7A7; 
+}
+
+.content-video p{
+    font-weight: lighter;
+    font-style: italic;
+    color: #A7A7A7;
+    text-align: center;
+}
+
+.container-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px;   
+}
+
+footer {
+    padding: 30px;
+    color: #A7A7A7;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.contact {
+    top: 120px;
+    width: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 500px;
+    background-color: #FFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+.input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 14px;
+    border-color: #fcacd1;
+}
+
+.textarea{
+    height: 220px;
+    padding-top: 10px;
+}
+
+.form h1{
+    color: #A7A7A7;
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-align: center;
+}
+.address{
+    padding: 15px;
+}
+
+.address h2{
+    text-transform: uppercase;
+    color: #fcacd1;
+}
+
+.address p{
+    color: #A7A7A7;
+}
+
+.btn{
+    border-radius: 20px;
+    color: #FFF;
+    background-color: #fcacd1;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
